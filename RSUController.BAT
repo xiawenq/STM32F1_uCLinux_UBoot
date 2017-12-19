@@ -1,0 +1,42 @@
+SET PATH=C:\Keil\ARM\BIN40\;D:\Program Files\ARM\ADSv1_2\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Windows Live\Shared;D:\Program Files\Altium Designer Winter 09\System;d:\altera\91\quartusndQUARTUS_ROOTDIR\bin;d:\Program Files\MATLAB\R2010a\runtime\win32;d:\Program Files\MATLAB\R2010a\bin;d:\Cadence\SPB_16.3\tools\bin;d:\Cadence\SPB_16.3\tools\specctra\bin;d:\Cadence\SPB_16.3\tools\PSpice;d:\Cadence\SPB_16.3\tools\PSpice\Library;d:\Cadence\SPB_16.3\tools\Capture;d:\Cadence\SPB_16.3\tools\fet\bin;d:\Cadence\SPB_16.3\tools\pcb\bin;d:\Cadence\SPB_16.3\OpenAccess\bin\win32\opt;D:\Program Files\Altium Designer Summer 09\System;D:\Program Files\TortoiseSVN\bin;D:\Program Files\ATMEL Corporation\AT91-ISP v1.13\Library\;D:\Program Files\ATMEL Corporation\AT91-ISP v1.13\sam-ba 2.9;D:\Program Files\IDM Computer Solutions\UltraEdit\
+SET RVCT40INC=C:\Keil\ARM\RV31\INC
+SET RVCT40LIB=C:\Keil\ARM\RV31\LIB
+SET CPU_TYPE=STM32F103ZE
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=RSUController
+SET CPU_CLOCK=0x00000000
+"C:\Keil\ARM\BIN40\ArmAsm" --Via ".\obj\cortexm3_macro._ia"
+"C:\Keil\ARM\BIN40\ArmAsm" --Via ".\obj\stm32f10x_startup._ia"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\bsp.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\system_stm32f10x.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\core_cm3.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_bkp.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_dbgmcu.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_exti.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_gpio.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_lib.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_nvic.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_pwr.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_rcc.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_spi.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_systick.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_tim.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_rtc.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_flash.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_adc.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_can.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_crc.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_dac.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_dma.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_fsmc.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_i2c.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_iwdg.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_sdio.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_usart.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_wwdg.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\stm32f10x_it.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\main.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\fsmc_sram.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\fsmc_nor.__i"
+"C:\Keil\ARM\BIN40\ArmCC" --Via ".\obj\setup.__i"
+"C:\Keil\ARM\BIN40\ArmLink" --Via ".\Obj\STM32F103_uCLinux_BOOT.lnp"
